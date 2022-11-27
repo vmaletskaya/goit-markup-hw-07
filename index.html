@@ -88,7 +88,7 @@
                 формування позиції.
               </p>
             </li>
-            <li class="benefits-card">
+            <li class="benefits__card">
               <div class="benefits__wrapper">
                 <svg class="benefits__icon" width="70" height="70">
                   <use href="./img/icons.svg.svg#icon-clock"></use>
@@ -100,7 +100,7 @@
                 тягне у себе.
               </p>
             </li>
-            <li class="benefits-card">
+            <li class="benefits__card">
               <div class="benefits__wrapper">
                 <svg class="benefits__icon" width="70" height="70">
                   <use href="./img/icons.svg.svg#icon-diagram"></use>
@@ -111,7 +111,7 @@
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="benefits-card">
+            <li class="benefits__card">
               <div class="benefits__wrapper">
                 <svg class="benefits__icon" width="70" height="70">
                   <use href="./img/icons.svg.svg#icon-astronaut"></use>
@@ -493,78 +493,77 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <div class="footer-container">
-          <a class="logo footer__logo" href="">Web<span class="logo__text logo__text--light">Studio</span></a>
-
+        <div>
+          <a class="footer__logo logo" href="">Web<span class="logo__text logo__text--light">Studio</span></a>
           <address class="footer__address">
             <ul class="list">
-              <li class="list-footer">
+              <li class="footer__list">
                 <a
                   href="https://goo.gl/maps/xZHKxqKx7CFX3MVU"
-                  class="link address link-footer"
+                  class="link footer__direction"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="list-footer">
+              <li class="footer__list">
                 <a
                   href="mailto:info@devstudio.com"
-                  class="link footer-mail link-footer"
+                  class="link footer__mail"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="list-footer">
-                <a href="tel:+380961111111" class="link footer-tel link-footer"
+              <li class="footer__list">
+                <a href="tel:+380961111111" class="link footer__tel"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-socials">
-          <h3 class="footer-title">приєднуйтесь</h3>
-          <ul class="footer-socials-list list">
-            <li class="socials-item-footer">
-              <a class="socials-link-footer link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+        <div class="footer__wrapper">
+          <h3 class="footer__title">приєднуйтесь</h3>
+          <ul class="footer-socials__list list">
+            <li class="footer-socials__item">
+              <a class="footer-socials__link link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
                 aria-label="Instagram icon">
-                <svg class="socials-icon-footer" width="20" height="20">
+                <svg class="footer-socials__icon" width="20" height="20">
                   <use href="./img/icons.svg.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="socials-item-footer">
-              <a class="socials-link-footer link" href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+            <li class="footer-socials__item">
+              <a class="footer-socials__link link" href="https://twitter.com" target="_blank" rel="noopener noreferrer"
                 aria-label="Twitter icon">
-                <svg class="socials-icon-footer" width="20" height="20">
+                <svg class="footer-socials__icon" width="20" height="20">
                   <use href="./img/icons.svg.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="socials-item-footer">
-              <a class="socials-link-footer link" href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+            <li class="footer-socials__item">
+              <a class="footer-socials__link link" href="https://facebook.com" target="_blank" rel="noopener noreferrer"
                 aria-label="Facebook icon">
-                <svg class="socials-icon-footer" width="20" height="20">
+                <svg class="footer-socials__icon" width="20" height="20">
                   <use href="./img/icons.svg.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="socials-item-footer">
-              <a class="socials-link-footer link" href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            <li class="footer-socials__item">
+              <a class="footer-socials__link link" href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
                 aria-label="Linkedin icon">
-                <svg class="socials-icon-footer" width="20" height="20">
+                <svg class="footer-socials__icon" width="20" height="20">
                   <use href="./img/icons.svg.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="mailing-list-container">
-          <p class="mailing-title">Підпишіться на розсилку</p>
-          <form class="mailing-list" name="mailing_list">
-            <label class="mailing-list-group-field">
+        <div class="mailing-list__container">
+          <p class="mailing-list__title">Підпишіться на розсилку</p>
+          <form class="mailing-list__list" name="mailing_list">
+            <label class="mailing-list__group">
               <input
-                class="mailing-list-field"
+                class="mailing-list__field"
                 type="text"
                 name="user_mail"
                 placeholder="E-mail"
@@ -572,7 +571,7 @@
             </label>
             <button class="btn-send" type="submit">
               Підписатися
-              <svg class="mailing-icon" width="24" height="24">
+              <svg class="mailing-list__icon" width="24" height="24">
                 <use href="./img/icons.svg.svg#icon-send"></use>
               </svg>
             </button>
