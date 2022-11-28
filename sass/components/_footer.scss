@@ -33,12 +33,13 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    }
+
 }
 
-.footer__direction:hover,
-.footer__direction:focus {
-    color: var(--accent-color);
-}
 
 .footer__mail {
     font-weight: 400;
@@ -51,6 +52,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+       color: var(--accent-color);
+    }
 }
 
 .footer__tel {
@@ -64,14 +70,14 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
 }
 
-.footer__mail:hover,
-.footer__mail:focus,
-.footer__tel:hover,
-.footer__tel:focus {
-    color: var(--accent-color);
-}
+
 
 .footer__wrapper {
     box-sizing: border-box;
@@ -108,12 +114,14 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    }
+
 }
 
-.footer-socials__link:hover,
-.footer-socials__link:focus {
-    background-color: var(--accent-color);
-}
+
 
 .footer-socials__icon {
     fill: var(--main-title-color);
@@ -153,12 +161,13 @@
     outline-offset: -1px;
     transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+    &:hover,
+        &:focus {
+            outline-color: var(--accent-color);
+        }
+
 }
 
-.mailing-list__field:hover,
-.mailing-list__field:focus {
-    outline-color: var(--accent-color);
-}
 
 .maling-list__field::placeholder {
     font-weight: 400;
@@ -189,12 +198,14 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+        &:focus {
+            background-color: var(--btn-hover-focus-color);
+        }
 }
 
-.btn-send:hover,
-.btn-send:focus {
-    background-color: var(--btn-hover-focus-color);
-}
+
 
 .mailing-list__icon {
     display: inline-block;

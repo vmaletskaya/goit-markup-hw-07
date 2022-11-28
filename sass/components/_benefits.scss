@@ -1,3 +1,8 @@
+.benefits{
+    // @extend %container;
+    @include container;
+}
+
 .benefits__section {
     padding-top: 94px;
     padding-bottom: 94px;

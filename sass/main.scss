@@ -1,10 +1,13 @@
 // utils styles
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import './utils/placeholders';
+@import './utils/mixins';
 
 // base ctyles
 @import './base/base';
 @import './base/reset';
+@import './base/animations';
 
 // components
 @import './components/container';
@@ -20,3 +23,4 @@
 @import './components/footer';
 @import './components/modal';
 @import './components/btn-portfolio';
+@import './components/grid';
