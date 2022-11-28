@@ -1,0 +1,22 @@
+.header {
+    border: 1px solid #ececec;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 91px;
+}
+
+
+.header__list {
+    margin-left: auto;
+    display: flex;
+    gap: 50px;
+}
