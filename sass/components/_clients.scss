@@ -3,13 +3,9 @@
 @include container;
 }
 
-.clients__section {
-    padding-bottom: 94px;
-    padding-top: 94px;
-}
 
 .clients__title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
